@@ -3,8 +3,11 @@ CS848 Project - Twitter &amp; IMDB Sentiment Analysis
 
 # Author and Course Information
 Name:      Alex Pawelczyk
+
 Email:     alex.pawelczyk@uwaterloo.ca
+
 Course:    CS848 - Information Retrieval
+
 Professor: Gordon V. Cormack
 
 # Technical Details
@@ -28,13 +31,19 @@ results.txt - Results log for IMDB and Twitter experiments
      2011. Learning Word Vectors forSentiment Analysis. In Proceedings of the 49th Annual Meeting of 
      the Association for Computational Linguistics: Human Language Technologies -Volume 1 
      (Portland, Oregon)(HLT ’11). Association for Computational Linguistics, USA, 142-150.
+     
 [D2] https://www.kaggle.com/atulanandjha/imdb-50k-movie-reviews-test-your-bert#test.csv
+
 [D3] Alec Go, Richa Bhayani, and Lei Huang. 2009. Twitter sentimentclassification using 
      distant supervision. Processing 150 (01 2009).
+     
 [D4] https://www.kaggle.com/kazanova/sentiment140
 
 # References Used During Implementation of Models
 [1] https://scikit-learn.org/
+
 [2] https://www.youtube.com/watch?v=0kPRaYSgblM&t=563s
+
 [3] https://medium.com/@bedigunjit/simple-guide-to-text-classification-nlp-using-svm-and-naive-bayes-with-python-421db3a72d34
+
 [4] https://towardsdatascience.com/sentiment-analysis-with-python-part-1-5ce197074184
