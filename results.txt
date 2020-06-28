@@ -1,0 +1,130 @@
+**********DESCRIPTION**********
+|___ Results log of IMDB and Twitter Experiments. Training and test
+     times are measured in seconds.
+
+
+**********Experiment1_IMDBSentimentAnalysis.ipynb**********
+
+- Classifier 1: Multinomial Naive Bayes
+|___ Fitting training dataset on the MNB classifier...
+|___ Training is complete. Total time:  0.04496969999996736
+|___ Making predictions...
+|___ Finished making predictions. Total time:  0.00977290000002995
+|___ Naive Bayes Accuracy Score ->  85.96000000000001
+              precision    recall  f1-score   support
+
+           0       0.84      0.88      0.86      5015
+           1       0.88      0.83      0.86      4985
+
+    accuracy                           0.86     10000
+   macro avg       0.86      0.86      0.86     10000
+weighted avg       0.86      0.86      0.86     10000
+
+Confusion Matrix:
+ [[4434  581]
+ [ 823 4162]]
+
+
+- Classifier 2: Support Vector Machines (SVM)
+|___ Fitting training dataset on the SVM classifier...
+|___ Training is complete. Total time:  1657.9351419
+|___ Making predictions...
+|___ Finished making predictions. Total time:  199.00289639999983
+|___ SVM Accuracy Score ->  90.62
+              precision    recall  f1-score   support
+
+           0       0.92      0.90      0.91      5015
+           1       0.90      0.92      0.91      4985
+
+    accuracy                           0.91     10000
+   macro avg       0.91      0.91      0.91     10000
+weighted avg       0.91      0.91      0.91     10000
+
+Confusion Matrix:
+ [[4491  524]
+ [ 414 4571]]
+
+
+- Classifier 3: Logistic Regression (LR)
+Training is complete. Total time:  4.743120699999963
+Making predictions...
+- Finished making predictions! Total Time:  0.004189600000245264
+- LR Accuracy Score for C=1: 89.47
+              precision    recall  f1-score   support
+
+           0       0.90      0.88      0.89      5015
+           1       0.89      0.91      0.90      4985
+
+    accuracy                           0.89     10000
+   macro avg       0.89      0.89      0.89     10000
+weighted avg       0.89      0.89      0.89     10000
+
+Confusion Matrix:
+ [[4435  580]
+ [ 473 4512]]
+
+
+
+**********Experiment2_TwitterSentimentAnalysis.ipynb**********
+
+- Classifier 1: Multinomial Naive Bayes
+|___ Fitting training dataset on the MNB classifier...
+|___ Training is complete. Total time:  0.018589200000008077
+|___ Making predictions...
+|___ Finished making predictions. Total time:  0.001698700000019926
+|___ Naive Bayes Accuracy Score ->  75.11
+              precision    recall  f1-score   support
+
+           0       0.72      0.82      0.77      5058
+           1       0.79      0.68      0.73      4942
+
+    accuracy                           0.75     10000
+   macro avg       0.76      0.75      0.75     10000
+weighted avg       0.76      0.75      0.75     10000
+
+Confusion Matrix:
+ [[4161  897]
+ [1592 3350]]
+
+
+- Classifier 2: Support Vector Machines (SVM)
+|___ Fitting training dataset on the SVM classifier...
+|___ Training is complete. Total time:  373.6038056
+|___ Making predictions...
+|___ Finished making predictions. Total time:  -39.6701061
+|___ SVM Accuracy Score ->  77.64999999999999
+              precision    recall  f1-score   support
+
+           0       0.79      0.76      0.78      5058
+           1       0.76      0.79      0.78      4942
+
+    accuracy                           0.78     10000
+   macro avg       0.78      0.78      0.78     10000
+weighted avg       0.78      0.78      0.78     10000
+
+Confusion Matrix:
+ [[3856 1202]
+ [1033 3909]]
+
+
+
+- Classifier 3: Fitting training dataset on the Logistic Regression classifier...
+Training is complete. Total time:  0.8642723000000387
+Making predictions...
+- Finished making predictions! Total Time:  0.0011953999999150255
+- LR Accuracy Score for C=1: 77.36
+              precision    recall  f1-score   support
+
+           0       0.79      0.75      0.77      5058
+           1       0.76      0.79      0.78      4942
+
+    accuracy                           0.77     10000
+   macro avg       0.77      0.77      0.77     10000
+weighted avg       0.77      0.77      0.77     10000
+
+Confusion Matrix:
+ [[3810 1248]
+ [1016 3926]]
+
+
+
